@@ -7,7 +7,6 @@ int main(){
     double originLatitude , originLongitude , destinationLatitude , destinationLongitude;
     double t ;
     double percentC;
-
 printf("Enter lattitude of origin:");  
 scanf("%lf", &originLatitude);
 printf("Enter longitude of origin:");
@@ -25,5 +24,5 @@ scanf("%lf",&percentC);
 
 printf("The air distance between two latitude longitude points is : %lf\n");
 
-printf("The time dilated experienced by the travelling object iss : %lf sec\n");
+printf("The time dilated experienced by the travelling object is : %lf sec\n");
 }
